@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.homeStyle{
+  background-color: #16A186 !important;
+  position: relative;
+}
+.content{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.img-style{
+  width: 200px;
+  height: 200px;
+}
+.textStyle{
+  font-size: 2rem !important;
+  font-weight: 700;
+  margin-top: 13px;
+}
+.line1{
+  width: 80px;
+  height: 4px;
+  background-color: #fff;
+  margin-top: 10px;
+}
+.line2{
+  width: 80px;
+  height: 4px;
+  background-color: #fff;
+  margin-top: 10px;
+}
+nav{
+  background-color: #2C3E50 !important;
+  padding-block: 25px !important;
+}
+nav a{
+  color: #fff !important;
+  font-size: 22px !important;  
+}
+nav .header-stle{
+  font-weight: 900;
+  font-size: 30px !important;
+}
+.footer-style{
+  background-color: #2C3E50 !important;
+}
+.copyright{
+  background-color: #1A252F !important;
+}
+.active{
+  background-color: #1ABC9C !important;
+  border-radius: 8px;
+}
+.about-header{
+  margin-bottom: 40px;
+}
+.about-style{
+  background-color: #1ABC9C;
+  height: 100vh;
+}
+.star-color{
+  color: #1A252F;
+}
+.port-header{
+  margin-top: 100px;
+}
+.port-header ,.lines{
+  color: #2C3E50;
+}
+.liness .line1 ,.liness .line2{
+  background-color: #1A252F !important;
+}
+.port-info{
+  position: relative;
+}
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  transition: 0.3s;
+}
+.port-info:hover .overlay{
+  opacity:1;
+  z-index: 999999999999;
+  background-color: #1abc9c9a;
+  z-index: 1;
+  cursor: pointer;
+}
+.plus-style{
+  color: #fff;
+  font-size: 120px;
+  font-weight: 900;
+}
+.contact-content{
+  position: relative;
+  margin-bottom: 100px;
+}
+.contect-header{
+  color: #2C3E50;
+  margin-top: 110px;
+}
+.sendInfo{
+  background-color: #1ABC9C;
+  position: absolute;
+  left: 25%;
+}
+.form-control:focus{
+  box-shadow:  0 0 0;
+}
+.serverErorr{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.inputStyle{
+  border: none  !important;
+  border-bottom: 2px solid #00000050 !important;
+  border-radius: 0 !important;
+}
+.form-floating label{
+  color: #0000008c;
+}
+.form-floating>.form-control:focus~label{
+  color: #09c !important;
+}
